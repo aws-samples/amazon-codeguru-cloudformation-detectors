@@ -6,7 +6,7 @@ Resources:
   Resource:
     Type: 'AWS::EC2::Instance'
     Properties:
-      # Compliant : EC2 instance do not have public IP.
+      # Compliant: EC2 instance do not have public IP.
       DisableApiTermination: false
       InstanceInitiatedShutdownBehavior: stop
       ImageId: !FindInMap
